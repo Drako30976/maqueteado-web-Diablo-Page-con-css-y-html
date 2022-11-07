@@ -52,36 +52,37 @@ nav{
 }
 .contenedor{
     border: 2px solid wheat;
-    background-size: cover;
-    background-position-y: center;
-    background-repeat: no-repeat; 
     margin-bottom: 30px;
     padding: 10px;
 }
 figure img{
+    display: block;
     border: 2px solid wheat;    
     width: 50%;
     float: right;
     margin: 5px 0px 10px 20px
 }
 .contenedor-personaje{
-    display: flex;
+    display:flex;
     height: 400pxx;
     border: 2px solid wheat;
-    background-size: cover;
-    background-position-y: center;
-    background-repeat: no-repeat; 
     margin-bottom: 30px;
-    padding: 10px
+    padding: 10px;
+    align-items: center;
 }
 .contenedor-personaje img{
-    border: 2px solid wheat;  
+    height: 100%;
+    border: 2px solid rgb(189, 158, 101);  
     max-width: 300px;
     margin:15px 15px 10px 8px ;
 }
 
 .content{
     display: flex;
+}
+.content img{
+    padding: 0;
+    height: 100%;
 }
 ul{
     padding: 0px 5px 0px 5px;
@@ -93,6 +94,7 @@ li{
     margin: 15px 0px;
 }
 li div img{
+    display: block;
     max-width: 200px;
     padding: 10px 5px 5px 10px;
     border: 2px solid wheat;  
